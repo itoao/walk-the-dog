@@ -22,10 +22,6 @@ pub fn main_js() -> Result<(), JsValue> {
         .unwrap();
 
     sierpinski(&context, [(300.0, 0.0), (0.0, 600.0), (600.0, 600.0)], 5);
-    // draw_triangle(&context, [(300.0, 0.0), (0.0, 600.0), (600.0, 600.0)]);
-    // draw_triangle(&context, [(300.0, 0.0), (150.0, 300.0), (450.0, 300.0)]);
-    // draw_triangle(&context, [(150.0, 300.0), (0.0, 600.0), (300.0, 600.0)]);
-    // draw_triangle(&context, [(450.0, 300.0), (300.0, 600.0), (600.0, 600.0)]);
 
     Ok(())
 }
